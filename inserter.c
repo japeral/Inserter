@@ -150,7 +150,7 @@ int main(int argc, char*argv[]){
   printf("\r\n\r\nInserting \"%s\" at address 0x%08x\r\n", insert,address);
   memcpy(pRamFile_match, insert, strlen(insert));
 
-  // Print the match area before patching
+  // Print the match area after patching
   printf("\r\nDumping @ last matching address after insertion...");
   pRamFile = pRamFile_match;
   printf("\r\nFile dump:");
