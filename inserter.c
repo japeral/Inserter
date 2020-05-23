@@ -1,7 +1,7 @@
 //
 // insertr v1.0
 //
-// by Jose Peral, jose.peral@vocis.co.uk
+// by Jose Peral
 //
 
 #include <stdio.h>
